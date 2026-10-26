@@ -1,0 +1,12 @@
+CARA BINA APK (TANPA ANDROID STUDIO)
+1. Buka github.com dan daftar/log masuk.
+2. Cipta repository baharu (contoh: panasonic-remote), pilih Private jika mahu.
+3. Upload SEMUA kandungan folder panasonic-remote ini, termasuk folder .github/workflows.
+   Cara mudah menggunakan komputer: GitHub > Add file > Upload files, drag kandungan folder.
+   Pastikan fail build.gradle.kts berada di root repository, bukan dalam subfolder.
+4. Buka tab Actions > Build Android APK > Run workflow.
+   Jika workflow sudah berjalan kerana push, tunggu ia selesai.
+5. Buka run yang berjaya > Artifacts > Panasonic-Remote-APK > download ZIP.
+6. Extract ZIP, install app-debug.apk pada Android.
+
+PERHATIAN: APK belum dibina atau diuji dalam persekitaran ini. Telefon memerlukan pemancar IR untuk fungsi remote. Keserasian dengan model aircond Panasonic belum disahkan.
